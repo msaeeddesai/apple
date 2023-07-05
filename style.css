@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+}
+
+.header{
+    border-bottom: 1px solid black;
+    /* flex parent container per lagega */
+    display: flex;
+    /* for alignment */
+    justify-content: space-between;
+}
+
+.header div{
+    /* border: 1px solid blue; */
+    width: 10%;
+}
+
+.header .left p{
+    /* border: 1px solid red; */
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: red;
+    font-size: 20px;
+}
+
+.SecondHeader{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.SecondHeader .border{
+    border: 1px solid black;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}   
+
+.SecondHeader .button{
+    
+}
